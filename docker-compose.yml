@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+  api2:
+    build:
+      context: ../../AppData/Local/Temp/Rar$DRa1724.20369/L4D4_API-main
+    expose:
+      - 3090
+    restart: always
+    volumes:
+      - .:/app
+    environment:
+      - TZ=Europe/Moscow
+
+networks:
+  default:
+    external: true
+    name: evilcorp

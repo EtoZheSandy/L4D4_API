@@ -13,7 +13,7 @@ RUN npm install
 #RUN npm ci --omit=dev
 
 # копируем исходный код
-COPY ../../AppData/Local/Temp/Rar$DRa1724.20369/L4D4_API-main .
+COPY ..
 
 EXPOSE 3090
 CMD [ "node", "app.js" ]

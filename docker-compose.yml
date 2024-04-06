@@ -3,7 +3,7 @@ version: '3.7'
 services:
   api2:
     build:
-      context: ../../AppData/Local/Temp/Rar$DRa1724.20369/L4D4_API-main
+      context: .
     expose:
       - 3090
     restart: always

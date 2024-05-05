@@ -5,7 +5,6 @@ const routeCache = require('route-cache');
 const { GetAvatar } = require('../../utils/MongoCacheAvatar');
 
 router.get('/v1/online_players', routeCache.cacheSeconds(30), async (req, res) => {
-    console.log('пук')
     let connection; // Объявляем переменную connection здесь, чтобы она была видна в блоке finally
     try {
         connection = await pool.getConnection();

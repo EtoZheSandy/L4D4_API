@@ -19,7 +19,7 @@
     "express": "^4.19.2",
     "express-rate-limit": "^7.1.4",
     "mongodb": "^6.5.0",
-    "mysql2": "^3.9.7",
+    "mysql2": "^3.9.8",
     "nodemon": "^3.0.1",
     "route-cache": "^0.5.0"
   }
